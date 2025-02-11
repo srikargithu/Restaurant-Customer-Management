@@ -1,18 +1,26 @@
+body {
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #FAFAFA; /* Soft White */
+  color: #000000; /* Black for readability */
+}
+
 .App {
-  font-family: 'Arial', sans-serif;
-  margin: 20px;
   text-align: center;
-  background-color: #e6f7ff; /* Light blue background color */
+  background-color: #ADD8E6; /* Light Blue */
   padding: 20px;
   border-radius: 10px;
-  border: 2px solid #d4d4d4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-  color: #ff5733; /* Coral */
+  color: #000080; /* Navy Blue */
   font-size: 2.5em;
   margin-bottom: 20px;
-  text-shadow: 2px 2px #e0e0e0;
 }
 
 .capacity-info {
@@ -22,16 +30,15 @@ h1 {
 }
 
 .box {
-  background-color: #ffcc00; /* Amber */
+  background-color: #000080; /* Navy Blue */
   padding: 10px;
   border-radius: 5px;
   font-size: 1.2em;
-  color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #FAFAFA; /* Soft White */
 }
 
 form {
-  background-color: #ffffff;
+  background-color: #FAFAFA; /* Soft White */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -42,25 +49,25 @@ label {
   display: block;
   margin-bottom: 15px;
   font-weight: bold;
-  color: #3961aaf9; 
+  color: #000080; /* Navy Blue */
 }
 
 input {
   margin-left: 10px;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #ADD8E6; /* Light Blue */
   border-radius: 5px;
   width: calc(100% - 22px);
   font-size: 1em;
-  color: #333333;
-  background-color: #f9f9f9;
+  background-color: #FAFAFA; /* Soft White */
+  color: #000000; /* Black for readability */
 }
 
 button {
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #2196f3; /* Blue */
-  color: white;
+  background-color: #000080; /* Navy Blue */
+  color: black; /* Soft White */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -69,28 +76,29 @@ button {
 }
 
 button:hover {
-  background-color: #1976d2; /* Darker Blue */
+  background-color: #ADD8E6; /* Light Blue */
+  color: #000000; /* Black for readability */
 }
 
 h2 {
   margin-top: 20px;
-  color: #9c27b0; /* Purple */
+  color: #000080; /* Navy Blue */
   font-size: 2em;
-  text-shadow: 2px 2px #e0e0e0;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  font-size: medium; /* Medium font size for the table */
 }
 
 th, td {
   padding: 10px;
-  border: 1px solid #ddd;
-  color: #555555;
+  border: 1px solid #ADD8E6; /* Light Blue */
+  color: #000000; /* Black for readability */
 }
 
 th {
-  background-color: #c81717; 
-  color: white;
+  background-color: #000080; /* Navy Blue */
+  color: #FAFAFA; /* Soft White */
 }
